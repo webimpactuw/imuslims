@@ -1,0 +1,74 @@
+.calendarContainer {
+    position: relative;
+    background-color: #784390;
+    min-width: 300px;
+    width: 20vw;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border: solid 5px #784390;
+    border-radius: 20px;
+    margin: 50px 0 25px 0;
+}
+
+.eventNameContainer {
+    height: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.eventName {
+    font-family: Aboreto;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.eventInfoContainer {
+    width: 100%;
+    height: 59%;
+    background-color: #FFFCF7;
+    padding: 0.5em 0.75em 0.5em 1em;
+    box-sizing: border-box;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.eventScrollWindow {
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #f1eadfe5 transparent;
+}
+
+.eventDescription {
+    font-family: Gotu, sans-serif;
+    font-size: 24px;
+    color: #3D1E6B;
+    margin: 0.5em 0 0 0;
+}
+
+.eventInfo {
+    font-family: Gotu, sans-serif;
+    font-size: 22px;
+    color: #3D1E6B;
+    margin-top: 0.5em;
+}
+
+.eventInfo p {
+    margin: 0 0 0.2em 1em;
+}
+
+.calendarRing {
+    position: absolute;
+    width: clamp(24px, 2.2vw, 28px);
+    top: clamp(-45px, -3vw, -36px);
+}
+
+.calendarRingLeft {
+    left: clamp(60px, 4.2vw, 140px);
+}
+
+.calendarRingRight {
+    right: clamp(60px, 4.2vw, 140px);
+}
