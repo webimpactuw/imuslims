@@ -1,0 +1,56 @@
+.eventList {
+    font-family: 'Gotu';
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 3rem;
+}
+
+.eventItem {
+    background: #FFFCF7;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.eventItem:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .eventName {
+    color: #3D1E6B;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #3D1E6B;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    padding-bottom: 1.5vh;
+    padding-left: 0.1vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .eventWrapper{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .eventDetails {
+    font-size: 1rem;
+    margin-top: 1vh;
+    margin-left: 0.1vw;
+    color: #464a4e;
+  }
+
+  .arrows img{
+    height: 1.5vh;
+    width: 1.5vw;
+  }
+
+
+.eventList {
+  min-width: 1024px;
+}

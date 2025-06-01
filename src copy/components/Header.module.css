@@ -1,0 +1,41 @@
+.header {
+    font-family: "Oswald", sans-serif;
+    background-color: #fffcf7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 1024px;
+    height: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    transition-duration: 250ms;
+    transition-delay: 30ms;
+}
+
+.logoContainer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logoContainer a {
+   width: 60%;
+}
+
+.logo {
+    padding-bottom: 5px;
+    padding-left: 20px;
+    max-height: 75px;
+    position: absolute;
+    aspect-ratio: auto;
+}
+
+.none {
+    display: none;
+}
