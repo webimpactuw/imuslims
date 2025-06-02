@@ -1,7 +1,7 @@
 import photo from './documents/photo';
 import poster from './documents/poster';
-import calendarEvent from './documents/calendarEvent';
+import event from './documents/event';
 
 export const schema = {
-  types: [photo, poster, calendarEvent],
+  types: [photo, poster, event],
 }

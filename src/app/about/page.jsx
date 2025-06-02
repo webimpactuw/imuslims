@@ -14,11 +14,11 @@ export default async function About() {
   return (
     <section>
       <img src="/about-banner.png" className={styles.teamPicture} />
-      <div className={styles.how}>
+      {/* <div className={styles.how}>
         <img className={styles.beganStar} src="/decorations/star.png" />
         <h1>How It All Began?</h1>
       </div>
-      <div className={styles.beganContainer}></div>
+      <div className={styles.beganContainer}></div> */}
       <div className={styles.boardHeaderContainer}>
         <img
           src="/decorations/star.png"

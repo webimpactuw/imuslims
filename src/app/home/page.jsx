@@ -58,7 +58,7 @@ export default async function Home() {
 }
 
 async function getEvents() {
-  const query = `*[_type == "calendarEvent"] | order(index asc) {
+  const query = `*[_type == "event"] | order(index asc) {
     index,
     name,
     description,
